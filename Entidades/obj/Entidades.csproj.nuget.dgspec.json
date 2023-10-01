@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Documents\\Facultad\\Programacion2023C2\\EjercicioIntegrador\\Entidades\\Entidades.csproj": {}
+    "C:\\Documents\\Facultad\\Programacion2023C2\\2023LabIntegrador\\Entidades\\Entidades.csproj": {}
   },
   "projects": {
-    "C:\\Documents\\Facultad\\Programacion2023C2\\EjercicioIntegrador\\Entidades\\Entidades.csproj": {
+    "C:\\Documents\\Facultad\\Programacion2023C2\\2023LabIntegrador\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Documents\\Facultad\\Programacion2023C2\\EjercicioIntegrador\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "C:\\Documents\\Facultad\\Programacion2023C2\\2023LabIntegrador\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "C:\\Documents\\Facultad\\Programacion2023C2\\EjercicioIntegrador\\Entidades\\Entidades.csproj",
+        "projectPath": "C:\\Documents\\Facultad\\Programacion2023C2\\2023LabIntegrador\\Entidades\\Entidades.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Documents\\Facultad\\Programacion2023C2\\EjercicioIntegrador\\Entidades\\obj\\",
+        "outputPath": "C:\\Documents\\Facultad\\Programacion2023C2\\2023LabIntegrador\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",

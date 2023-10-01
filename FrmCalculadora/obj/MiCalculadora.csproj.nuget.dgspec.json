@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Documents\\Facultad\\Programacion2023C2\\EjercicioIntegrador\\FrmCalculadora\\MiCalculadora.csproj": {}
+    "C:\\Documents\\Facultad\\Programacion2023C2\\2023LabIntegrador\\FrmCalculadora\\MiCalculadora.csproj": {}
   },
   "projects": {
-    "C:\\Documents\\Facultad\\Programacion2023C2\\EjercicioIntegrador\\FrmCalculadora\\MiCalculadora.csproj": {
+    "C:\\Documents\\Facultad\\Programacion2023C2\\2023LabIntegrador\\FrmCalculadora\\MiCalculadora.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Documents\\Facultad\\Programacion2023C2\\EjercicioIntegrador\\FrmCalculadora\\MiCalculadora.csproj",
+        "projectUniqueName": "C:\\Documents\\Facultad\\Programacion2023C2\\2023LabIntegrador\\FrmCalculadora\\MiCalculadora.csproj",
         "projectName": "MiCalculadora",
-        "projectPath": "C:\\Documents\\Facultad\\Programacion2023C2\\EjercicioIntegrador\\FrmCalculadora\\MiCalculadora.csproj",
+        "projectPath": "C:\\Documents\\Facultad\\Programacion2023C2\\2023LabIntegrador\\FrmCalculadora\\MiCalculadora.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Documents\\Facultad\\Programacion2023C2\\EjercicioIntegrador\\FrmCalculadora\\obj\\",
+        "outputPath": "C:\\Documents\\Facultad\\Programacion2023C2\\2023LabIntegrador\\FrmCalculadora\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
