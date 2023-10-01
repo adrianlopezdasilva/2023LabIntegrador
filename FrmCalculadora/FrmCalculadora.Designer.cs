@@ -52,6 +52,7 @@
             txtPrimerOperador.Name = "txtPrimerOperador";
             txtPrimerOperador.Size = new Size(240, 52);
             txtPrimerOperador.TabIndex = 0;
+            txtPrimerOperador.TextChanged += txtPrimerOperador_TextChanged;
             // 
             // txtSegundoOperador
             // 
@@ -60,13 +61,13 @@
             txtSegundoOperador.Name = "txtSegundoOperador";
             txtSegundoOperador.Size = new Size(240, 52);
             txtSegundoOperador.TabIndex = 1;
+            txtSegundoOperador.TextChanged += txtSegundoOperador_TextChanged;
             // 
             // cmbOperacion
             // 
             cmbOperacion.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbOperacion.Font = new Font("Segoe UI", 25F, FontStyle.Regular, GraphicsUnit.Point);
             cmbOperacion.FormattingEnabled = true;
-            cmbOperacion.Items.AddRange(new object[] { "", "+", "-", "/", "*" });
             cmbOperacion.Location = new Point(336, 296);
             cmbOperacion.Name = "cmbOperacion";
             cmbOperacion.Size = new Size(121, 53);
@@ -81,6 +82,7 @@
             btnOperar.TabIndex = 3;
             btnOperar.Text = "Operar";
             btnOperar.UseVisualStyleBackColor = true;
+            btnOperar.Click += btnOperar_Click;
             // 
             // btnLimpiar
             // 
@@ -165,6 +167,7 @@
             rdbBinario.TabStop = true;
             rdbBinario.Text = "Binario";
             rdbBinario.UseVisualStyleBackColor = true;
+            rdbBinario.CheckedChanged += rdbBinario_CheckedChanged;
             // 
             // rdbDecimal
             // 
@@ -176,6 +179,7 @@
             rdbDecimal.TabStop = true;
             rdbDecimal.Text = "Decimal";
             rdbDecimal.UseVisualStyleBackColor = true;
+            rdbDecimal.CheckedChanged += rdbDecimal_CheckedChanged;
             // 
             // FrmCalculadora
             // 
@@ -201,6 +205,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Calculadora de Adrian Lopez Da Silva";
             FormClosing += FrmCalculadora_FormClosing;
+            Load += FrmCalculadora_Load;
             grpSistema.ResumeLayout(false);
             grpSistema.PerformLayout();
             ResumeLayout(false);

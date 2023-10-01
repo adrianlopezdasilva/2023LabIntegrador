@@ -29,13 +29,13 @@ namespace Entidades
             this.segundoOperando = segundoOperando;
         }
 
-        /*public Numeracion Operar (char operador)
+        public Numeracion Operar (char operador)
         {
             Numeracion auxNumeracion;
             switch(operador)
             {
                 case '+':
-                    auxNumeracion = PrimerOperando + SegundoOperando;
+                    auxNumeracion = primerOperando + segundoOperando;
                     break;
 
                 case '-':
@@ -54,7 +54,8 @@ namespace Entidades
             }
 
             return auxNumeracion;
-        }*/
+        }
+
 
     }
 }
