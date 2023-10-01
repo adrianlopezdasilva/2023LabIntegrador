@@ -6,7 +6,34 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    internal class Operacion
+    public class Operacion
     {
+        private Numeracion primerOperando;
+        private Numeracion segundoOperando;
+
+
+
+        public Numeracion PrimerOperando
+        {
+            get { return primerOperando; }
+            set { primerOperando = value; }
+        }
+
+        public Numeracion SegundoOperando
+        {
+            get { return segundoOperando; }
+            set { segundoOperando = value; }
+        }
+
+        public Operacion(Numeracion primerOperando, Numeracion segundoOperando)
+        {
+
+        }
+
+        public Numeracion Operar (char operador)
+        {
+
+        }
+
     }
 }

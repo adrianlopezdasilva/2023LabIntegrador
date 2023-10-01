@@ -3,9 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{BAF816E4-B727-44B3-8784-B181379CCDF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entidades", "Entidades\Entidades.csproj", "{BAF816E4-B727-44B3-8784-B181379CCDF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiCalculadora", "FrmCalculadora\MiCalculadora.csproj", "{AA005286-D24A-463E-BD69-DE88FF7AEC05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiCalculadora", "FrmCalculadora\MiCalculadora.csproj", "{AA005286-D24A-463E-BD69-DE88FF7AEC05}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BAF816E4-B727-44B3-8784-B181379CCDF0} = {BAF816E4-B727-44B3-8784-B181379CCDF0}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

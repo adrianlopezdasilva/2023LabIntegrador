@@ -66,6 +66,7 @@
             cmbOperacion.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbOperacion.Font = new Font("Segoe UI", 25F, FontStyle.Regular, GraphicsUnit.Point);
             cmbOperacion.FormattingEnabled = true;
+            cmbOperacion.Items.AddRange(new object[] { "", "+", "-", "/", "*" });
             cmbOperacion.Location = new Point(336, 296);
             cmbOperacion.Name = "cmbOperacion";
             cmbOperacion.Size = new Size(121, 53);
