@@ -150,9 +150,10 @@
             // 
             grpSistema.Controls.Add(rdbBinario);
             grpSistema.Controls.Add(rdbDecimal);
-            grpSistema.Location = new Point(300, 142);
+            grpSistema.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            grpSistema.Location = new Point(251, 127);
             grpSistema.Name = "grpSistema";
-            grpSistema.Size = new Size(200, 80);
+            grpSistema.Size = new Size(249, 95);
             grpSistema.TabIndex = 10;
             grpSistema.TabStop = false;
             grpSistema.Text = "Representar resultado en:";
@@ -160,9 +161,10 @@
             // rdbBinario
             // 
             rdbBinario.AutoSize = true;
-            rdbBinario.Location = new Point(123, 37);
+            rdbBinario.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            rdbBinario.Location = new Point(139, 37);
             rdbBinario.Name = "rdbBinario";
-            rdbBinario.Size = new Size(62, 19);
+            rdbBinario.Size = new Size(91, 32);
             rdbBinario.TabIndex = 1;
             rdbBinario.TabStop = true;
             rdbBinario.Text = "Binario";
@@ -172,9 +174,10 @@
             // rdbDecimal
             // 
             rdbDecimal.AutoSize = true;
+            rdbDecimal.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
             rdbDecimal.Location = new Point(6, 37);
             rdbDecimal.Name = "rdbDecimal";
-            rdbDecimal.Size = new Size(68, 19);
+            rdbDecimal.Size = new Size(100, 32);
             rdbDecimal.TabIndex = 0;
             rdbDecimal.TabStop = true;
             rdbDecimal.Text = "Decimal";

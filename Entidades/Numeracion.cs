@@ -1,4 +1,5 @@
-﻿using System.Reflection.Metadata.Ecma335;
+﻿using System.Reflection;
+using System.Reflection.Metadata.Ecma335;
 using System.Runtime.Intrinsics;
 
 namespace Entidades
@@ -94,7 +95,19 @@ namespace Entidades
 
         public string ConvertirA(ESistema sistema)
         {
-            return null;
+            string auxString;
+
+            if(sistema == ESistema.Binario)
+            {
+                return auxString = DecimalABinario(this.Valor).ToString();
+
+            }
+            else
+            {
+                return auxString = BinarioADecimal(this.Valor).ToString();
+
+            }
+
         }
 
         private void InicializarValores(string valor, ESistema sistema)

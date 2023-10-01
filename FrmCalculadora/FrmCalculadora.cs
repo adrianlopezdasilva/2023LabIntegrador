@@ -25,12 +25,15 @@ namespace FrmCalculadora
 
         private void setResultado()
         {
-            if (resultado != null)
+            if(this.sistema == ESistema.Binario)
             {
-
-                lblResultado.Text = resultado.ToString();
+                lblResultado.Text = resultado.ConvertirA(sistema);
+            }else
+            { 
+            lblResultado.Text = resultado.Valor;
 
             }
+
         }
 
         private void FrmCalculadora_FormClosing(object sender, FormClosingEventArgs e)
@@ -48,10 +51,20 @@ namespace FrmCalculadora
 
         private void btnOperar_Click(object sender, EventArgs e)
         {
-            // Operacion.Operar(cmbOperacion.Text.)
-            {
 
-            }
+            string auxPrimerOperando = txtPrimerOperador.Text;
+            string auxSegundoOperando = txtSegundoOperador.Text;
+
+            double.TryParse(auxPrimerOperando, out double primerOperandoValor);
+            double.TryParse(auxSegundoOperando, out double segundoOperandoValor);
+
+
+            Numeracion primerOperando = new Numeracion(primerOperandoValor, this.sistema);
+            Numeracion segundoOperando = new Numeracion(segundoOperandoValor, this.sistema);
+
+            Operacion calculadora = new Operacion(primerOperando, segundoOperando);
+            resultado = calculadora.Operar(Convert.ToChar(cmbOperacion.Text));
+            setResultado();
         }
 
         private void FrmCalculadora_Load(object sender, EventArgs e)
@@ -60,11 +73,11 @@ namespace FrmCalculadora
             cmbOperacion.Items.Add("-");
             cmbOperacion.Items.Add("*");
             cmbOperacion.Items.Add("/");
+            rdbDecimal.Checked = true;
         }
 
         private void txtPrimerOperador_TextChanged(object sender, EventArgs e)
         {
-            //primerOperando.Valor = txtPrimerOperador.Text;
         }
 
         private void txtSegundoOperador_TextChanged(object sender, EventArgs e)
@@ -74,12 +87,13 @@ namespace FrmCalculadora
 
         private void rdbDecimal_CheckedChanged(object sender, EventArgs e)
         {
-            sistema = ESistema.Decimal;
+            this.sistema = ESistema.Decimal;          
         }
 
         private void rdbBinario_CheckedChanged(object sender, EventArgs e)
         {
-            sistema = ESistema.Binario;
+            this.sistema = ESistema.Binario;
+            
         }
     }
 }
