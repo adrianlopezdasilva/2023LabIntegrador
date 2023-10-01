@@ -1,0 +1,17 @@
+C:\Documents\Facultad\Programacion2023C2\EjercicioIntegrador\FrmCalculadora\bin\Debug\net6.0-windows\MiCalculadora.exe
+C:\Documents\Facultad\Programacion2023C2\EjercicioIntegrador\FrmCalculadora\bin\Debug\net6.0-windows\MiCalculadora.deps.json
+C:\Documents\Facultad\Programacion2023C2\EjercicioIntegrador\FrmCalculadora\bin\Debug\net6.0-windows\MiCalculadora.runtimeconfig.json
+C:\Documents\Facultad\Programacion2023C2\EjercicioIntegrador\FrmCalculadora\bin\Debug\net6.0-windows\MiCalculadora.dll
+C:\Documents\Facultad\Programacion2023C2\EjercicioIntegrador\FrmCalculadora\bin\Debug\net6.0-windows\MiCalculadora.pdb
+C:\Documents\Facultad\Programacion2023C2\EjercicioIntegrador\FrmCalculadora\obj\Debug\net6.0-windows\MiCalculadora.csproj.AssemblyReference.cache
+C:\Documents\Facultad\Programacion2023C2\EjercicioIntegrador\FrmCalculadora\obj\Debug\net6.0-windows\FrmCalculadora.FrmCalculadora.resources
+C:\Documents\Facultad\Programacion2023C2\EjercicioIntegrador\FrmCalculadora\obj\Debug\net6.0-windows\MiCalculadora.csproj.GenerateResource.cache
+C:\Documents\Facultad\Programacion2023C2\EjercicioIntegrador\FrmCalculadora\obj\Debug\net6.0-windows\MiCalculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Documents\Facultad\Programacion2023C2\EjercicioIntegrador\FrmCalculadora\obj\Debug\net6.0-windows\MiCalculadora.AssemblyInfoInputs.cache
+C:\Documents\Facultad\Programacion2023C2\EjercicioIntegrador\FrmCalculadora\obj\Debug\net6.0-windows\MiCalculadora.AssemblyInfo.cs
+C:\Documents\Facultad\Programacion2023C2\EjercicioIntegrador\FrmCalculadora\obj\Debug\net6.0-windows\MiCalculadora.csproj.CoreCompileInputs.cache
+C:\Documents\Facultad\Programacion2023C2\EjercicioIntegrador\FrmCalculadora\obj\Debug\net6.0-windows\MiCalculadora.dll
+C:\Documents\Facultad\Programacion2023C2\EjercicioIntegrador\FrmCalculadora\obj\Debug\net6.0-windows\refint\MiCalculadora.dll
+C:\Documents\Facultad\Programacion2023C2\EjercicioIntegrador\FrmCalculadora\obj\Debug\net6.0-windows\MiCalculadora.pdb
+C:\Documents\Facultad\Programacion2023C2\EjercicioIntegrador\FrmCalculadora\obj\Debug\net6.0-windows\MiCalculadora.genruntimeconfig.cache
+C:\Documents\Facultad\Programacion2023C2\EjercicioIntegrador\FrmCalculadora\obj\Debug\net6.0-windows\ref\MiCalculadora.dll
