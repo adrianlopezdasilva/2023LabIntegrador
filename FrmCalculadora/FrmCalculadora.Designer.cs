@@ -40,8 +40,8 @@
             lblOperacion = new Label();
             lblSegundoOperador = new Label();
             grpSistema = new GroupBox();
-            rdbDecimal = new RadioButton();
             rdbBinario = new RadioButton();
+            rdbDecimal = new RadioButton();
             grpSistema.SuspendLayout();
             SuspendLayout();
             // 
@@ -91,6 +91,7 @@
             btnLimpiar.TabIndex = 4;
             btnLimpiar.Text = "Limpiar";
             btnLimpiar.UseVisualStyleBackColor = true;
+            btnLimpiar.Click += btnLimpiar_Click;
             // 
             // btnCerrar
             // 
@@ -101,6 +102,7 @@
             btnCerrar.TabIndex = 5;
             btnCerrar.Text = "Cerrar";
             btnCerrar.UseVisualStyleBackColor = true;
+            btnCerrar.Click += btnCerrar_Click;
             // 
             // lblResultado
             // 
@@ -153,17 +155,6 @@
             grpSistema.TabStop = false;
             grpSistema.Text = "Representar resultado en:";
             // 
-            // rdbDecimal
-            // 
-            rdbDecimal.AutoSize = true;
-            rdbDecimal.Location = new Point(6, 37);
-            rdbDecimal.Name = "rdbDecimal";
-            rdbDecimal.Size = new Size(68, 19);
-            rdbDecimal.TabIndex = 0;
-            rdbDecimal.TabStop = true;
-            rdbDecimal.Text = "Decimal";
-            rdbDecimal.UseVisualStyleBackColor = true;
-            // 
             // rdbBinario
             // 
             rdbBinario.AutoSize = true;
@@ -174,6 +165,17 @@
             rdbBinario.TabStop = true;
             rdbBinario.Text = "Binario";
             rdbBinario.UseVisualStyleBackColor = true;
+            // 
+            // rdbDecimal
+            // 
+            rdbDecimal.AutoSize = true;
+            rdbDecimal.Location = new Point(6, 37);
+            rdbDecimal.Name = "rdbDecimal";
+            rdbDecimal.Size = new Size(68, 19);
+            rdbDecimal.TabIndex = 0;
+            rdbDecimal.TabStop = true;
+            rdbDecimal.Text = "Decimal";
+            rdbDecimal.UseVisualStyleBackColor = true;
             // 
             // FrmCalculadora
             // 
@@ -198,6 +200,7 @@
             Name = "FrmCalculadora";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Calculadora de Adrian Lopez Da Silva";
+            FormClosing += FrmCalculadora_FormClosing;
             grpSistema.ResumeLayout(false);
             grpSistema.PerformLayout();
             ResumeLayout(false);

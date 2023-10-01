@@ -11,8 +11,6 @@ namespace Entidades
         private Numeracion primerOperando;
         private Numeracion segundoOperando;
 
-
-
         public Numeracion PrimerOperando
         {
             get { return primerOperando; }
@@ -27,13 +25,36 @@ namespace Entidades
 
         public Operacion(Numeracion primerOperando, Numeracion segundoOperando)
         {
-
+            this.primerOperando = primerOperando;
+            this.segundoOperando = segundoOperando;
         }
 
-        public Numeracion Operar (char operador)
+        /*public Numeracion Operar (char operador)
         {
+            Numeracion auxNumeracion;
+            switch(operador)
+            {
+                case '+':
+                    auxNumeracion = PrimerOperando + SegundoOperando;
+                    break;
 
-        }
+                case '-':
+                    auxNumeracion = PrimerOperando - SegundoOperando;
+                    break;
+                case '*':
+                    auxNumeracion = PrimerOperando * SegundoOperando;
+                    break;
+                case '/':
+                    auxNumeracion = PrimerOperando / SegundoOperando;
+                    break;
+
+                default:
+                    auxNumeracion = PrimerOperando + SegundoOperando;
+                    break;
+            }
+
+            return auxNumeracion;
+        }*/
 
     }
 }
